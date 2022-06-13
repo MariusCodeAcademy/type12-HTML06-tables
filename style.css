@@ -8,3 +8,25 @@ h2.sub-title {
 .sub-title {
   font-weight: 900;
 }
+
+.users-table {
+  width: 100%;
+  border: 1px solid #333;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.users-table caption {
+  font-size: 25px;
+  /* border: 1px solid #333; */
+}
+
+td,
+th {
+  border: 1px solid #333;
+  padding: 0.3em 0.6em;
+  text-align: left;
+}
+th {
+  background-color: coral;
+}

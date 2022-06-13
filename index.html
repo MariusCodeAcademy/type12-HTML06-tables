@@ -16,19 +16,19 @@
   <div class="container">
     <h1>HTML 6 - tables</h1>
 
-    <table>
+    <table class="users-table">
+      <caption>Musu vartotojai</caption>
       <thead>
         <tr>
           <th>Vardas</th>
           <th>Amzius</th>
-          <th>Miestas</th>
+          <th>Miestas kuriame uzaugo ir iskelevo kazkur</th>
         </tr>
       </thead>
 
       <tr>
         <td>James</td>
-        <td>55</td>
-        <td>London</td>
+        <td colspan="2">55, London</td>
       </tr>
       <tr>
         <td>Jill</td>
@@ -39,6 +39,13 @@
         <td>Mike</td>
         <td>32</td>
         <td>Kaunas</td>
+      </tr>
+      <tr>
+        <td colspan="2" rowspan="2">Jake, 40</td>
+        <td>Vilnius</td>
+      </tr>
+      <tr>
+        <td>Klaipeda</td>
       </tr>
 
     </table>
