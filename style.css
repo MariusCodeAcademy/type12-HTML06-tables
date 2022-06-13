@@ -1,3 +1,10 @@
 body {
   /* background-color: coral; */
 }
+
+h2.sub-title {
+  font-weight: normal;
+}
+.sub-title {
+  font-weight: 900;
+}
