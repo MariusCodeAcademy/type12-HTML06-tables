@@ -24,7 +24,7 @@ th {
 }
 
 td {
-  /* background-color: #fff; */
+  /* background-color: coral; */
   border-bottom: 2px solid #f4f4f4;
 }
 
@@ -35,5 +35,9 @@ tr {
 /* 2, 4, 6 .. lyginiai even angl  */
 /* 1, 3, 5 .. nelyginiai odd angl  */
 tr:nth-child(even) {
+  /* background-color: #d0d0d0; */
+}
+
+tr:hover {
   background-color: #d0d0d0;
 }
